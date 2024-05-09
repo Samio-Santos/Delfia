@@ -30,7 +30,7 @@ def processar_transacoes(valor_limite, arquivo_entrada, arquivo_saida, arquivo_l
 if __name__ == "__main__":
     # Define os nomes dos arquivos e o valor limite
     valor_limite = 1000
-    arquivo_entrada = 'transacoe'
+    arquivo_entrada = 'transacoes.csv'
     arquivo_saida = 'transacoes_altas.csv'
     arquivo_log = 'log_erros.txt'
 

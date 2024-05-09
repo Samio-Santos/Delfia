@@ -34,7 +34,7 @@ def obter_informacoes_clima(api_key, city):
 if __name__ == "__main__":
 
     # Chave de API para autenticar as solicitações (substitua pela sua chave)
-    api_key = "9b7fa3207f0925d9bea8b69f6c0378d5"
+    api_key = "SUA_CHAVE_API"
 
     # Solicita ao usuário o nome da cidade como entrada
     cidade = input("Digite o nome da cidade para verificar o clima: ").strip()
